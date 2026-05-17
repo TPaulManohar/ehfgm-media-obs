@@ -1,0 +1,143 @@
+/* EHFGM Dark Church - OBS Theme Starter */
+
+* {
+    font-family: "Segoe UI", "Noto Sans Telugu", "Noto Sans", sans-serif;
+    font-size: 10pt;
+    color: #E8EEF5;
+}
+
+QMainWindow,
+QDialog,
+QWidget {
+    background-color: #101418;
+    color: #E8EEF5;
+}
+
+QFrame,
+QGroupBox {
+    background-color: #181E24;
+    border: 1px solid #2D3742;
+    border-radius: 6px;
+}
+
+QDockWidget {
+    background-color: #101418;
+    titlebar-close-icon: none;
+    titlebar-normal-icon: none;
+}
+
+QDockWidget::title {
+    background-color: #181E24;
+    color: #E8EEF5;
+    padding: 6px;
+    border-bottom: 1px solid #2D3742;
+}
+
+QPushButton {
+    background-color: #222A32;
+    color: #E8EEF5;
+    border: 1px solid #2D3742;
+    border-radius: 6px;
+    padding: 6px 10px;
+}
+
+QPushButton:hover {
+    background-color: #2D3742;
+}
+
+QPushButton:pressed {
+    background-color: #2D8CFF;
+}
+
+QPushButton:disabled {
+    background-color: #151A20;
+    color: #5F6B78;
+}
+
+QLineEdit,
+QTextEdit,
+QPlainTextEdit,
+QComboBox,
+QSpinBox,
+QDoubleSpinBox {
+    background-color: #0D1116;
+    color: #E8EEF5;
+    border: 1px solid #2D3742;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+QComboBox::drop-down {
+    border-left: 1px solid #2D3742;
+    background-color: #181E24;
+}
+
+QListWidget,
+QTreeView,
+QTableView {
+    background-color: #0D1116;
+    color: #E8EEF5;
+    border: 1px solid #2D3742;
+    alternate-background-color: #151A20;
+}
+
+QListWidget::item:selected,
+QTreeView::item:selected,
+QTableView::item:selected {
+    background-color: #2D8CFF;
+    color: #FFFFFF;
+}
+
+QTabWidget::pane {
+    border: 1px solid #2D3742;
+    background-color: #101418;
+}
+
+QTabBar::tab {
+    background-color: #181E24;
+    color: #AAB4C0;
+    padding: 8px 12px;
+    border: 1px solid #2D3742;
+    border-bottom: none;
+}
+
+QTabBar::tab:selected {
+    background-color: #222A32;
+    color: #FFFFFF;
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background: #2D3742;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #2D8CFF;
+    width: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+
+QScrollBar:vertical,
+QScrollBar:horizontal {
+    background: #101418;
+    border: none;
+}
+
+QScrollBar::handle:vertical,
+QScrollBar::handle:horizontal {
+    background: #2D3742;
+    border-radius: 4px;
+}
+
+QMenuBar,
+QMenu {
+    background-color: #181E24;
+    color: #E8EEF5;
+}
+
+QMenu::item:selected {
+    background-color: #2D8CFF;
+    color: #FFFFFF;
+}
