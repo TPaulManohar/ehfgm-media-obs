@@ -1,8 +1,0 @@
-Base Canvas: 1280x720
-Output Scaled: 1280x720
-FPS: 30
-Rate Control: CBR
-Bitrate: 2500 kbps
-Keyframe Interval: 2
-Audio Bitrate: 160 kbps
-Encoder: Hardware if available, otherwise x264 veryfast
